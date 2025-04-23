@@ -5,11 +5,12 @@ public class twoDarraySum {
         for(int i=0;i<arr.length;i++){
             for(int j=0;j<arr[i].length;j++){
                 sum+=arr[i][j];
+                System.out.println(sum);  //sum at each step
             }
            //System.out.print(sum);       Har row ka sum
           // System.out.println();
         }
-        System.out.println(sum);    //overall sum
+       // System.out.println(sum);    //overall sum
     }
     
 }
