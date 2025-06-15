@@ -8,10 +8,11 @@ public class commonInArray{
         for(int i=0; i<arr.length; i++){
             for(int j=0; j<arr1.length; j++){
                 if(arr[i] == arr1[j]){
-                    count++;
+                //     count++;
+                break;
                 }
             }
         }
-        System.out.println(count);
+        System.out.println(arr[i]);
     }
 }
