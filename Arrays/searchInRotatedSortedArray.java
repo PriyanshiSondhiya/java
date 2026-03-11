@@ -5,7 +5,7 @@ public class searchInRotatedSortedArray {
 
     int low = 0;
     int high = nums.length-1;
-   // int mid = low + (high - low) / 2;
+  
     while (low <= high){
      int mid = low + (high - low) / 2;
       if(nums[mid] == target){
@@ -31,7 +31,6 @@ public class searchInRotatedSortedArray {
       }
       
     }
-
     System.out.println("not found");
     
   }
