@@ -32,8 +32,7 @@ public class stackUsingArrayList {
       public static boolean isEmpty(){
         return list.size() == 0;
       }
-
-  }
+    }
 
   public static void main (String args[]){
     stack s = new stack();
