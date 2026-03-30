@@ -1,6 +1,6 @@
 //parameterised
 
-public class sumOfOneTwoN {
+public class sumOfOneToN {
   public static void print (int i , int sum){
   if(i < 1){
     System.out.println(sum);

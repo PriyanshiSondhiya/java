@@ -1,4 +1,4 @@
-public class sumOfOneTwoNFunctional {
+public class sumOfOneToNFunctional {
   public static int print(int n){
     if(n == 0){
       return 0 ;
