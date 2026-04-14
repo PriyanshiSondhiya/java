@@ -16,9 +16,7 @@ public class searchInsertPos {
 
         
             return st;
-        
-        
-        
+            
     }
 
     public static void main (String args[]){
