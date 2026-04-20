@@ -30,9 +30,15 @@ public class hcf {
     else return a;
   }
 
+  public static int lcm(int a, int b, int gcd){
+    int lcm = (a * b) / gcd;
+    return lcm;
+  }
+
   public static void main (String args[]){
   System.out.println(print1(9, 12));
   System.out.println(print2(9, 12));
   System.out.println(print3(9, 12));
+  System.out.println(lcm(9, 12, 3 ));
   }
 }
