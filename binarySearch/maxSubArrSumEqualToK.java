@@ -34,6 +34,7 @@ public class maxSubArrSumEqualToK{
        }
        else if(j-i+1 == k){
         max = Math.max(max, sum);
+        sum -= arr[i];
         i++;
         j++;
        }
