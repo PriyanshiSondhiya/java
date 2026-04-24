@@ -26,11 +26,12 @@ public class maxSubArrSumEqualToK{
     int k = 3;
     int max = Integer.MIN_VALUE;
     int i=0,j=0;
+       int sum =0;
 
     while(j<arr.length){
-       int sum =0;
+     sum += arr[j];
        if(j-i+1 < k){
-          sum += arr[j];
+         j++;
        }
        else if(j-i+1 == k){
         max = Math.max(max, sum);
